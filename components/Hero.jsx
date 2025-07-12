@@ -9,7 +9,7 @@ const Hero = () => {
         <Image 
             src="/images/bg.jpg"
             alt="Hero Image"
-            className='rounded-2xl mt-12 w-[80vw] h-[80vh] object-cover'
+            className='rounded-4xl mt-12 w-[80vw] h-[80vh] object-cover'
             width={800}
             height={600}
      
