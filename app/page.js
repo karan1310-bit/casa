@@ -1,5 +1,7 @@
 'use client'
 
+import EscapeAmenitiesSection from '@/components/Escape'
+import FooterBoxes from '@/components/Footer'
 import PhotoGallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
 import MiniEscape from '@/components/Mini'
@@ -34,6 +36,8 @@ const page = () => {
       <Hero />
       <MiniEscape />
       <PhotoGallery />
+      <EscapeAmenitiesSection />
+      <FooterBoxes />
     </main>
   )
 }
