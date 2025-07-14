@@ -1,6 +1,8 @@
 'use client'
 
+import PhotoGallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
+import MiniEscape from '@/components/Mini'
 import Navbar from '@/components/Navbar'
 import Lenis from '@studio-freight/lenis'
 import React, { useEffect } from 'react'
@@ -27,9 +29,11 @@ const page = () => {
   }, [])
 
   return (
-    <main className='bg-[#e8e4d9] text-black min-h-screen w-full'>
+    <main className='bg-[#e8e4d9] text-black min-h-screen w-full font-neue'>
       <Navbar />
       <Hero />
+      <MiniEscape />
+      <PhotoGallery />
     </main>
   )
 }
