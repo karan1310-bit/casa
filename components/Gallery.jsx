@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function PhotoGallery() {
   return (
-    <section className="py-12 w-full px-4 md:px-20">
+    <section className="py-12 md:py-16 w-full px-4 md:px-20">
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-4 relative">
         {/* Large Left Image */}
         <div className="md:col-span-3 relative h-[300px] md:h-[90vh]">

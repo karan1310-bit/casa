@@ -9,7 +9,7 @@ export default function MiniEscape() {
         <h2 className="text-5xl md:text-8xl font-semibold tracking-tight text-black">
           mini. <span className="font-extralight font-satoshi">{'{ escape }'}</span>
         </h2>
-        <p className="mt-4 text-base md:text-xl text-black px-4 md:px-0 md:max-w-xl md:mx-auto leading-relaxed">
+        <p className="mt-4 text-base md:text-2xl text-black px-4 md:px-0 md:max-w-xl md:mx-auto leading-snug">
          A thoughtfully designed stay in central Ujjain, just a few minutes from Mahakaleshwar Temple. Perfect for those seeking comfort, culture, and a peaceful retreat.
         </p>
       </div>
