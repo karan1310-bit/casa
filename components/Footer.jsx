@@ -5,9 +5,9 @@ import { FaInstagram } from 'react-icons/fa';
 
 export default function FooterBoxes() {
   return (
-    <section className="w-full px-4 md:px-20 pt-20 md:pt-12 pb-12">
+    <section className="w-full px-4 md:px-20 pt-20 md:pt-12 pb-8">
       <div className="max-w-8xl mx-auto">
-        <div className="bg-[#6a625c] text-gray-200 rounded-3xl px-8 md:px-8 py-6 md:py-8 overflow-hidden">
+        <div className="bg-[#6a625c] text-gray-200 rounded-3xl px-6 md:px-8 py-6 md:py-8 overflow-hidden">
           {/* Inner Grid: 3:1 Layout with full height */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:min-h-[400px]">
             {/* Left Column (3/4) */}
@@ -34,7 +34,7 @@ export default function FooterBoxes() {
               </div>
 
               {/* Tagline at the bottom of left column */}
-              <div className="text-xl sm:text-3xl opacity-20 font-light tracking-widest">
+              <div className="hidden md:block text-xl sm:text-3xl opacity-20 font-light tracking-widest">
                 Modern • Minimal • Mindful
               </div>
             </div>

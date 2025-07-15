@@ -1,4 +1,5 @@
 import React from 'react'
+import FlairButton from './Button'
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                     Casa K.
                 </div>
                 <ul className='flex text-xl text-black'>
-                    <li className=' cursor-pointer'>Menu</li>
+                    <li className=' cursor-pointer'><FlairButton /></li>
                 </ul>
             </div>
         </nav>
