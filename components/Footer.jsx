@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { FaInstagram } from 'react-icons/fa'; 
+import { FaWhatsapp, FaEnvelope } from 'react-icons/fa'
 
 export default function FooterBoxes() {
   return (
@@ -17,7 +18,36 @@ export default function FooterBoxes() {
                   Where comfort meets culture.
                 </h2>
 
-                <div className="border border-white/20 rounded-2xl w-full max-w-xl px-6 md:px-8 py-6 flex items-center justify-between hover:bg-white/5 transition mb-10">
+                
+
+                <div className="border border-white/20 rounded-2xl w-full max-w-xl px-4 md:px-8 py-6 flex items-center justify-between hover:bg-white/5 transition mb-4">
+  <div>
+    <h3 className="text-lg md:text-xl font-medium mb-1">Booking Inquiry</h3>
+    <p className="text-sm md:text-lg text-gray-300">Reach out on WhatsApp or Email</p>
+  </div>
+  <div className="flex items-center gap-4">
+    <a
+      href={`https://wa.me/917225928721?text=${encodeURIComponent(
+        "Hi! I'm interested in booking your place. Is it available?"
+      )}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-2xl text-white hover:text-green-400 transition"
+    >
+      <FaWhatsapp className="text-3xl" />
+    </a>
+    <a
+      href="mailto:karanbhati1310@gmail.com?subject=Booking Inquiry&body=Hi! I’m interested in booking your place. Is it available?"
+      className="text-2xl text-white hover:text-red-400 transition"
+    >
+      <FaEnvelope className="text-3xl" />
+    </a>
+  </div>
+
+  
+</div>
+
+<div className="border border-white/20 rounded-2xl w-full max-w-xl px-4 md:px-8 py-4 flex items-center justify-between hover:bg-white/5 transition mb-4">
                   <div>
                     <h3 className="text-lg md:text-xl font-medium mb-1">Stay connected</h3>
                     <p className="text-sm md:text-lg text-gray-300">Follow us on Instagram</p>
@@ -28,7 +58,7 @@ export default function FooterBoxes() {
                     rel="noopener noreferrer"
                     className="text-2xl text-white hover:text-gray-200 transition"
                   >
-                    <FaInstagram className="text-4xl" />
+                    <FaInstagram className="text-3xl text-white hover:text-[#ae9ab3] transition" />
                   </a>
                 </div>
               </div>

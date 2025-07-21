@@ -6,7 +6,7 @@ export default function EscapeAmenitiesSection() {
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Column: All content */}
         <div>
-          <div className="grid grid-cols-1 gap-6 text-base md:text-2xl text-black md:max-w-xl leading-snug mt-2">
+          <div className="grid grid-cols-1 gap-6 text-base md:text-2xl text-black md:max-w-xl leading-snug mt-2 pb-2">
             <p>
               
   Enjoy a peaceful, well-designed stay in the heart of Ujjain — one of India’s most sacred cities. Perfect for families, couples, or solo travelers seeking comfort with home-like amenities.

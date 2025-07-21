@@ -69,7 +69,9 @@ const FlairButton = () => {
 
   return (
     <a
-      href="#"
+      href={`https://wa.me/917225928721?text=${encodeURIComponent(
+    `Hi there! I’d love to reserve this place — is it available?`
+  )}`} target="_blank"
       ref={buttonRef}
       className="relative inline-flex items-center justify-center px-4 md:px-6 py-1 md:py-2 font-light text-black transition-colors duration-150 ease-out rounded-full border border-black group overflow-hidden"
     >
