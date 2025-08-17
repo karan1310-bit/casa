@@ -64,7 +64,7 @@ export default function FooterBoxes() {
               </div>
 
               {/* Tagline at the bottom of left column */}
-              <div className="hidden md:block text-xl sm:text-3xl opacity-20 font-light tracking-widest">
+              <div className="mt-4 text-xl sm:text-3xl opacity-50 font-light tracking-widest">
                 Modern • Minimal • Mindful
               </div>
             </div>
@@ -72,11 +72,11 @@ export default function FooterBoxes() {
             {/* Right Column (1/4) - Full Height Image */}
             <div className="md:col-span-1 rounded-2xl overflow-hidden h-full">
               <Image
-                src="/images/bg.jpg" // Replace with actual image path
+                src="/gallery/17.jpg" // Replace with actual image path
                 alt="Room preview"
                 width={500}
                 height={600}
-                className="w-full h-full object-cover"
+                className="w-full h-[0vh] md:h-[55vh] object-cover"
               />
             </div>
           </div>

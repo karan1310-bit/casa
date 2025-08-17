@@ -9,10 +9,10 @@ export default function PhotoGallery() {
         {/* Large Left Image */}
         <div className="md:col-span-3 relative h-[300px] md:h-[90vh]">
           <Image
-            src="/images/photo1.jpg"
+            src="/gallery/12.jpg"
             alt="Main bedroom view"
             fill
-            className="object-cover rounded-2xl md:rounded-none md:rounded-l-4xl"
+            className="object-cover object-[45%] rounded-2xl md:rounded-none md:rounded-l-4xl"
           />
         </div>
 
@@ -20,7 +20,7 @@ export default function PhotoGallery() {
         <div className="md:col-span-2 grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 gap-4 h-[980px] md:h-[90vh]">
           <div className="relative w-full h-full">
             <Image
-              src="/images/photo2.jpg"
+              src="/gallery/15.jpg"
               alt="Kitchen view"
               fill
               className="object-cover rounded-2xl md:rounded-none"
@@ -28,7 +28,7 @@ export default function PhotoGallery() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/images/photo3.jpg"
+              src="/gallery/9.jpg"
               alt="Wardrobe view"
               fill
               className="object-cover rounded-2xl md:rounded-none md:rounded-r-4xl"
@@ -36,7 +36,7 @@ export default function PhotoGallery() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/images/photo4.jpg"
+              src="/gallery/10.jpg"
               alt="Patio space"
               fill
               className="object-cover rounded-2xl md:rounded-none"
@@ -44,7 +44,7 @@ export default function PhotoGallery() {
           </div>
           <div className="relative w-full h-full">
             <Image
-              src="/images/photo5.jpg"
+              src="/gallery/11.jpg"
               alt="Bathroom sink"
               fill
               className="object-cover rounded-2xl md:rounded-none md:rounded-r-4xl"
