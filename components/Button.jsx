@@ -73,7 +73,7 @@ const FlairButton = () => {
     `Hi there! I’d love to reserve this place — is it available?`
   )}`} target="_blank"
       ref={buttonRef}
-      className="relative inline-flex items-center justify-center px-4 md:px-6 py-1 md:py-2 font-light text-black transition-colors duration-150 ease-out rounded-full border border-black group overflow-hidden"
+      className="relative inline-flex items-center justify-center px-4 md:px-6 py-1 md:py-2 font-DMregular text-black transition-colors duration-150 ease-out rounded-full border-[2px] border-black group overflow-hidden"
     >
       <span
         ref={flairRef}

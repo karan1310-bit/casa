@@ -2,7 +2,7 @@
 
 export default function EscapeAmenitiesSection() {
   return (
-    <section className="w-full px-4 md:px-20 md:py-16">
+    <section className="w-full px-4 md:px-12 md:py-16 font-DMregular">
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Column: All content */}
         <div>

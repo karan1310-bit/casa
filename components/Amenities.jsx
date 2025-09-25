@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function AmenitiesSection() {
   return (
-    <section className="py-12 px-4 md:px-20">
+    <section className="py-12 px-4 md:px-20 font-DMregular">
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left: Text + Amenities */}
         <div>

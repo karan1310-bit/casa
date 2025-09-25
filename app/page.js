@@ -31,7 +31,7 @@ const page = () => {
   }, [])
 
   return (
-    <main className='bg-[#e8e4d9] text-black min-h-screen w-full font-neue'>
+    <main className='bg-[#FFFFFF] text-black min-h-screen w-full font-neue'>
       <Navbar />
       <Hero />
       <MiniEscape />

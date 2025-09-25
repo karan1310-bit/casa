@@ -2,14 +2,14 @@
 
 export default function MiniEscape() {
   return (
-    <section className="min-h-fit flex flex-col items-center justify-start px-4 md:px-4 py-2">
+    <section className="min-h-fit flex flex-col items-center justify-start font-DMregular px-4 md:px-4 py-2">
 
       {/* Title */}
       <div className="text-center mt-8">
         <h2 className="text-5xl md:text-8xl font-semibold tracking-tight text-black">
-          mini. <span className="font-extralight font-satoshi">{'{ escape }'}</span>
+          mini. <span className="font-extralight font-EpiItalic">{'{ escape }'}</span>
         </h2>
-        <p className="mt-4 text-base md:text-2xl text-black px-4 md:px-0 md:max-w-xl md:mx-auto leading-snug">
+        <p className="mt-4 md:mt-8 text-center text-base md:text-2xl text-black px-2 md:px-0 max-w-sm md:max-w-2xl md:mx-auto leading-snug">
          A thoughtfully designed stay in central Ujjain, just a few minutes from Mahakaleshwar Temple. Perfect for those seeking comfort, culture, and a peaceful retreat.
         </p>
       </div>
